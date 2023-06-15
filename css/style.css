@@ -1,0 +1,997 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*heading styling starts here*/
+/*navbar styling starts here */
+
+header{
+	padding: auto 2em;
+	margin: auto; 
+}
+header > nav{
+	background-color: #006363;
+	display: flex;
+	padding: 1em 1em;
+	align-items: center;
+}
+
+header > nav > .logo{
+	font-size: 2em;
+	font-weight: bolder;
+	color: white;
+}
+
+header > nav > .logo:hover{
+	color: black;
+}
+
+header > nav > .navbar > ul{
+	display: flex;
+	list-style-type: none;
+	font-size: 15px;
+}
+
+header > nav > .navbar > ul > li > a{
+	text-decoration: none;
+	color: white;
+	padding: 3em 2em;
+	padding-bottom: 1em;
+}
+
+header > nav > .navbar > ul > li > a:hover{
+	border-bottom: 2px solid grey;
+	color: grey;
+}
+
+header > nav > .navbar-side{
+	display: flex;
+}
+
+header > nav > .navbar-side > a{
+	color: #006363;
+	width: 150px;
+	text-decoration: none;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+	padding: 10px;
+	border-top-left-radius: 0px;
+	margin-right: 15px;
+}
+
+header > nav > .navbar-side > a:hover{
+	color: white;
+	background-color: grey;
+}
+
+
+header > nav > .navbar-side > .nav-sidebar > .side-bar > ul > li:hover a{
+	padding-left: 20px;
+}
+
+header > nav > .navbar-side > .nav-sidebar > .side-bar > ul > a > i{
+	margin-right: 50px;
+}
+
+/*navbar styling stops here
+/*hero styling section starts here*/
+
+header > .hero-container{
+	background-color: #006363;
+	height: 400px;
+	display: flex;
+	color: white;
+	padding: 2em 2em;
+	margin: auto;
+	align-items: center;
+}
+
+header > .hero-container > .hero-image > img{
+   width: 350px;
+   height: 405px;
+   border-radius: 25px;
+   margin: auto 2em;
+}
+
+.hero-container > .hero-text > span{
+	color: grey;
+} 
+
+.hero-container > .hero-text > .about{
+	display: flex;
+	align-items: center;
+}
+
+.hero-container > .hero-text > .about a{
+	color: #006363;
+	width: 150px;
+	text-decoration: none;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+	padding: 10px;
+	border-top-left-radius: 0px;
+}
+
+.hero-container > .hero-text > .about a:hover{
+	color: white;
+	background-color: grey;
+}
+
+.hero-container > .hero-text > .about > .about-sidebar > a{
+	height: 40px;
+	width: 30px;
+	margin: 10px;
+	color: #006363;
+	background-color: white;
+	border-radius: 100px;
+	align-items: center;
+	margin: 3px;
+	padding-left: 10px;
+}
+
+.hero-container > .hero-text > .about > .about-sidebar > a:hover{
+	color: white;
+	background-color: grey;
+}
+
+/*hero styling section ends here*/
+/*header styling ends here*/
+/*main section styling starts*/
+/*about styling section starts here*/
+
+main > .about-section{
+	background-color: white;
+	display: flex;
+	margin: 2em;
+	padding: 2em 2em;
+	align-items: center;
+	justify-content: center;
+}
+
+main > .about-section > .about-text1{
+	margin: 2em;
+}
+
+main > .about-section > .about-text1 a{
+	color: #006363;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+main > .about-section > .about-text2 p{
+	height: 180px;
+	width: 600px;
+}
+
+main > .about-section > .about-text2 > .box{
+	display: flex;
+}
+
+main > .about-section > .about-text2 > .box > .about-firstbox > a{
+    color: white;
+	width: 150px;
+	text-decoration: none;
+	background-color: #006363;
+	border-radius: 10px;
+	text-align: center;
+	padding: 10px;
+	border-top-left-radius: 0px;
+	margin-right: 15px;	
+}
+
+main > .about-section > .about-text2 > .box > .about-lastbox > a{
+    color: #006363;
+	width: 150px;
+	text-decoration: none;
+	background-color: white;
+	border: 2px solid #006363;
+	border-radius: 10px;
+	text-align: center;
+	padding: 10px;
+	border-top-left-radius: 0px;
+	margin-right: 15px;	
+}
+
+/*about styling section ends here*/
+/*services styling section starts here*/
+
+main > .services{
+	display: flex;
+	background-color: white;
+	margin: 2em;
+	padding: 2em 2em;
+	align-items: center;
+	justify-content: center;
+}
+
+main > .services > .post2, main > .services > .post1, main > .services > .post3{
+	margin: 2em;
+	box-shadow: 5px 5px 10px grey;
+	height: 390px;
+	align-items: center;
+	text-align: center;
+	padding: 1em 2em;
+}
+
+main > .services > .post1 > img, main > .services > .post2 > img, main > .services > .post3 > img{
+   width: 100px;
+   height: 75px;
+   margin: 1em;
+}
+
+main > .services > .post1 > ul, main > .services > .post2 > ul, main > .services > .post3 > ul{
+   list-style-type: none;
+}
+
+/*services styling section ends here*/
+/*skills styling section starts here*/
+
+main > .skills-section{
+	display: flex;
+	background-color: #D3D3D3;
+	padding: 4em 3em;
+	margin: 3em;
+	align-items: right;
+}
+
+.skills-section > .skills-img > img{
+	width: 550px;
+	height: 600px;
+	border:8px solid white;
+	margin: 2em 3.5em;
+	border-radius: 25px;
+}
+
+.skills-section > .skills-text > p{
+	height: 100px;
+	width: 500px;
+}
+
+.skills-section > .skills-text > a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #006363;
+}
+
+.skills-section > .skills-text > h2{
+	margin: 30px auto;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.skills-section > .skills-text > .branding-box, .skills-section > .skills-text > .web-box, .skills-section > .skills-text > .digital-box, .skills-section > .skills-text > .product-box{
+	display: flex;
+	position: relative;
+	top: -60px;
+}
+
+.skills-section > .skills-text > .branding-box > .branding-box1{
+	background-color: #006363;
+	border: border-box;
+	width: 250px;
+	text-align: right;
+	color: white;
+}
+
+.skills-section > .skills-text > .branding-box > .branding-box2{
+	background-color: white;
+	border: border-box;
+	width: 90px;
+}
+
+.skills-section > .skills-text > .web-box > .web-box1{
+	background-color: #006363;
+	color: white;
+	border: border-box;
+	width: 300px;
+	text-align: right;
+}
+
+.skills-section > .skills-text > .web-box > .web-box2{
+	background-color: white;
+	border: border-box;
+	width: 40px;
+}
+
+.skills-section > .skills-text > .digital-box > .digital-box1{
+	background-color: #006363;
+	color: white;
+	border: border-box;
+	width: 200px;
+	text-align: right;
+}
+
+.skills-section > .skills-text > .digital-box > .digital-box2{
+	background-color: white;
+	border: border-box;
+	width: 140px;
+}
+
+.skills-section > .skills-text > .product-box > .product-box1{
+	background-color: #006363;
+	color: white;
+	border: border-box;
+	width: 310px;
+	text-align: right;
+}
+
+.skills-section > .skills-text > .product-box > .product-box2{
+	background-color: white;
+	border: border-box;
+	width: 30px;
+}
+
+/*skills styling section ends here*/
+/*works styling section starts here*/
+
+main > .works-section{
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: 2em;
+	padding: 3em 3em;
+}
+main > .works-section > h6 > a{
+	color: #006363;
+	text-align: center;
+	text-decoration: none;
+}
+
+main > .works-section > h1{
+	text-align: center;
+	margin: 10px;
+}
+
+main > .works-section > ul{
+	display: flex;
+	list-style-type: none;
+	text-align: center;
+	margin-left: 405px;
+	padding-bottom: 1em;
+	align-items: center;
+}
+
+main > .works-section > ul > li{
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+main > .works-section > ul > li > a{
+	text-decoration: none;
+	color: black;
+	margin: 10px;
+}
+
+main > .works-section > ul > li > a:hover{
+   color: #006363;
+   border-bottom: 3px solid #006363;
+}
+
+main > .works-section > .works-section-img > .works-section-img1 > img,
+main > .works-section > .works-section-img > .works-section-img2 > img{
+	width: 300px;
+	height: 250px;
+}
+
+/*works section styling stop here*/
+/*project on mind styling starts here*/
+
+main > .project-section > .project-image{
+	display: flex;
+	justify-content: left;
+	background-image: url(../images/pro.jpg);
+	margin: auto; 
+	background-size: contain;
+	background-position: center center;
+	overflow-x: hidden;
+	align-items: center;
+	width: 1250px;
+	height: 300px;
+}
+
+main > .project-section > .project-image::before{
+	content: "";
+	position: absolute;
+	top: 3161px;
+	bottom: -2836px;
+	right: 3.2em;
+	left: 3.2em;
+	z-index: 2;
+	background: rgba(0, 120, 0,  0.6);
+}
+
+main > .project-section > .project-image > .project-text{
+	color: white;
+	font-size: 25px;
+	z-index: 5;
+	padding: 35px;
+	display: flex;
+}
+
+main > .project-section > .project-image > .project-text > .text-line > h6{
+   color: brown;   
+}
+
+main > .project-section > .project-image > .project-text > .project-link{
+  padding-right: 15px;
+  margin: 2em 11em;
+  align-items: right;
+  text-align: right;
+}
+
+main > .project-section > .project-image > .project-text > .project-link > a{
+	color: #006363;
+	width: 150px;
+	height: 50px;
+	text-decoration: none;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+	padding: 10px;
+	border-top-left-radius: 0px;
+	margin-right: 15px;	
+}
+
+/*project section styling ends here*/
+/*experience section styling starts here*/
+
+main > .experience-section{
+	background-color: #D3D3D3;
+	padding: 6em 3em;
+	margin: auto 3em;
+}
+
+main > .experience-section > .experience-text > h6 > a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #006363;
+	text-align: center;
+	margin-left: 520px;
+	padding: 2em 1em;
+}
+
+main > .experience-section > .experience-text > h2{
+	font-size: 50px;
+	text-align: center;
+}
+
+main > .experience-section > .post1 > .post1-box1,
+main > .experience-section > .post1 > .post1-box2,
+main > .experience-section > .post1 > .post1-box3,
+main > .experience-section > .post2 > .post2-box1,
+main > .experience-section > .post2 > .post2-box2,
+main > .experience-section > .post2 > .post2-box3{
+	background-color: white;
+	padding: 2em 2em;
+	margin: 1em;
+}
+
+main > .experience-section > .post1 > .post1-box1 > .box1-img, 
+main > .experience-section > .post1 > .post1-box2 > .box2-img, 
+main > .experience-section > .post1 > .post1-box3 > .box3-img, 
+main > .experience-section > .post2 > .post2-box1 > .pbox1-img,
+main > .experience-section > .post2 > .post2-box2 > .pbox2-img, 
+main > .experience-section > .post2 > .post2-box3 > .pbox3-img{
+	display: flex;
+	align-items: center;
+	margin: 1em;
+}
+
+main > .experience-section > .post1 > .post1-box1 > .box1-img > p, 
+main > .experience-section > .post1 > .post1-box2 > .box2-img > p, 
+main > .experience-section > .post1 > .post1-box3 > .box3-img > p, 
+main > .experience-section > .post2 > .post2-box1 > .pbox1-img > p,
+main > .experience-section > .post2 > .post2-box2 > .pbox2-img > p, 
+main > .experience-section > .post2 > .post2-box3 > .pbox3-img > p{
+  margin: 1em;
+  color: #006363;
+}
+
+main > .experience-section > .post1 > .post1-box1 > .box1-img > p > span, 
+main > .experience-section > .post1 > .post1-box2 > .box2-img > p > span, 
+main > .experience-section > .post1 > .post1-box3 > .box3-img > p > span, 
+main > .experience-section > .post2 > .post2-box1 > .pbox1-img > p > span,
+main > .experience-section > .post2 > .post2-box2 > .pbox2-img > p > span, 
+main > .experience-section > .post2 > .post2-box3 > .pbox3-img > p > span{
+   color: black;
+   font-size: 25px;
+}
+
+main > .experience-section > .post1, .experience-section > .post2{
+	display: flex;
+}
+
+/*experience section styling ends here*/
+/*qualification section styling start here*/
+
+main > .qualification-section{
+	background-color: white;
+	display: flex;
+	margin: 5em 5em;
+	padding: auto;
+	align-items: center;
+}
+
+main > .qualification-section > .qualification-text{
+	width: 600px;
+	height:250px;
+}
+
+main > .qualification-section > .qualification-text > h6 > a{
+	color: #006363;
+	text-decoration: none;
+	text-align: center;
+	padding: 3em auto;
+}
+
+main > .qualification-section > .qualification-text > h2{
+	font-size: 35px;
+	margin: 10px auto;
+}
+
+main > .qualification-section > .qualification-text > ul > li > span{
+	color: #006363;
+	margin: 15px auto;
+} 
+
+main > .qualification-section > .qualification-text > ul > li > p{
+	margin: 10px auto;
+}
+
+main > .qualification-section > .qualification-img > .img1{
+	position: absolute;
+	margin-left: 165px;
+	margin-top: -43px;
+}
+
+main > .qualification-section > .qualification-img > .img2{
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 40px;
+}
+
+/*Qualification styling section stops here*/
+/*Team section styling starts here*/
+
+main > .team-section{
+	align-items: center;
+	justify-content: center;
+	background-color: #D3D3D3;
+	margin: 15em 3em;
+	padding: 2em;
+	width: 1250px;
+	height: 600px;
+}
+
+main > .team-section > .team-text{
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+main > .team-section > .team-text > h6 > a{
+	font-size: 15px;
+	color: #006363;
+	text-align: center;
+	text-decoration: none;
+}
+
+main > .team-section > .team-text > h2{
+	font-size: 35px;
+}
+
+main > .team-section > .team-img{
+	display: flex;
+	align-items: center;
+	margin: auto 5.8em;
+}
+
+main > .team-section > .team-img > .box1 > .img1 > img,
+main > .team-section > .team-img > .box2 > .img2 > img,
+main > .team-section > .team-img > .box3 > .img3 > img{
+	width: 300px;
+	height: 350px;
+	margin: 1em;
+}
+
+main > .team-section > .team-img > .box1 > .img1-text,
+main > .team-section > .team-img > .box2 > .img2-text,
+main > .team-section > .team-img > .box3 > .img3-text{
+	width: 250px;
+	height: 100px;
+	position: absolute;
+	background-color: white;
+	text-align: center;
+	justify-content: center;
+	padding: 2em;
+	margin-top: -3.5em;
+	margin-left: 2.5em;
+}
+
+/*team section styling stops here*/
+/*contact section styling starts here*/
+
+main > .contact-section{
+	background-color: #006363;
+	margin-left: 3em;
+	margin-top: -15em;
+	margin-right: 3.1em;
+	align-items: center;
+	justify-content: center;
+	padding: 2em 2em;
+}
+
+main > .contact-section > .contact{
+	display: flex;
+	margin: 2em;
+}
+
+main > .contact-section > .contact-text{
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+main > .contact-section > .contact-text > h6 > a{
+   color: gray;
+}
+
+main > .contact-section > .contact-text > h2{
+	color: white;
+	font-size: 35px;
+}
+
+main > .contact-section > .contact > .form{
+	margin-right: 2em;
+	color: white;
+}
+
+main > .contact-section > .contact > .form > .form-box > .name input,
+main > .contact-section > .contact > .form > .form-box > .email input{
+	width: 500px;
+	height: 40px;
+	background-color: #A0D6B4;
+	border: 1px solid #006363;
+	margin-bottom: 1em;
+	margin-top: 0.5em;
+}
+
+main > .contact-section > .contact > .form > .form-box > .text-area > span > textarea{
+	width: 500px;
+	height: 150px;
+	background-color: #A0D6B4;
+	border: 1px solid #006363;
+	margin-bottom: 4em;
+	margin-top: 0.5em;
+}
+
+main > .contact-section > .contact > .form > a{
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+	background-color: #F8C9BB;
+	border: 5px solid #F8C9BB;
+	border-radius: 20px;
+	padding: 10px 30px;
+}
+
+main > .contact-section > .contact > .map > iframe{
+	height: 430px;
+	margin-left: 2em;
+}
+
+/*contact section styling ends here*/
+/*Number styling section starts here*/
+
+main > .number-section{
+	background-color: #D3D3D3;
+	display:flex;
+	margin: auto 3em;
+	padding: 5em 10em;
+	align-items: center;
+	justify-content: center;
+}
+
+main > .number-section > .box1, 
+main > .number-section > .box2, 
+main > .number-section > .box3, 
+main > .number-section > .box4{
+	margin: auto 5em;
+	padding: 1em 1em;
+	align-items: center;
+	justify-content: center;
+}
+
+main > .number-section > .box1 > img,
+main > .number-section > .box2 > img,
+main > .number-section > .box3 > img,
+main > .number-section > .box4 > img{
+  margin-left: 1em;
+  border-radius: 100px;
+}
+
+main > .number-section > .box1 > h2,
+main > .number-section > .box2 > h2,
+main > .number-section > .box3 > h2,
+main > .number-section > .box4 > h2{
+	text-align: center;
+	margin: auto 0.8em;
+	width: 55px;
+}
+
+main > .number-section > .box1 > h6,
+main > .number-section > .box2 > h6,
+main > .number-section > .box3 > h6,
+main > .number-section > .box4 > h6{
+text-align: center;
+margin: auto;
+width: 100px;
+}
+
+/*number section styling stops here*/
+/*testimonial section styling starts here*/
+
+main > .testimonial-section{
+	margin: auto 3em;
+	padding: 2em 2em;
+	background-color: white;
+	color: black;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+main > .testimonial-section > .testimonial-text > h6 > a{
+	text-decoration: none;
+	color: #006363;
+}
+
+main > .testimonial-section > .testimonial-text > h2{
+	font-size: 35px;
+	margin: 0.5em auto;
+}
+
+main > .testimonial-section > .testimonial-box{
+	display: flex;
+	margin: 2em auto;
+}
+
+main > .testimonial-section > .testimonial-box > .box1,
+main > .testimonial-section > .testimonial-box > .box2,
+main > .testimonial-section > .testimonial-box > .box3{
+	box-shadow: 2px 2px 10px grey;
+	padding: 2em 2em;
+	height: 300px;
+	margin: auto 2em;
+}
+
+main > .testimonial-section > .testimonial-box > .box1 > .box1-line1 > .line1-ball,
+main > .testimonial-section > .testimonial-box > .box2 > .box2-line1 > .line1-ball,
+main > .testimonial-section > .testimonial-box > .box3 > .box3-line1 > .line1-ball{
+	color: brown;
+	margin-right: 3em;
+}
+
+main > .testimonial-section > .testimonial-box > .box1 > .box1-line1 > .line1-text,
+main > .testimonial-section > .testimonial-box > .box2 > .box2-line1 > .line1-text,
+main > .testimonial-section > .testimonial-box > .box3 > .box3-line1 > .line1-text{
+	font-weight: bold;
+}
+
+main > .testimonial-section > .testimonial-box > .box1 > p,
+main > .testimonial-section > .testimonial-box > .box2 > p,
+main > .testimonial-section > .testimonial-box > .box3 > p{
+	margin: 1em auto;
+}
+
+main > .testimonial-section > .testimonial-box > .box1 > .box1-line2,
+main > .testimonial-section > .testimonial-box > .box2 > .box2-line2,
+main > .testimonial-section > .testimonial-box > .box3 > .box3-line2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+main > .testimonial-section > .testimonial-box > .box1 > .box1-line2 > img,
+main > .testimonial-section > .testimonial-box > .box2 > .box2-line2 > img,
+main > .testimonial-section > .testimonial-box > .box3 > .box3-line2 > img{
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  margin: auto 1em;
+}
+
+main > .testimonial-section > .testimonial-box > .box1 > .box1-line2 > h3 > span,
+main > .testimonial-section > .testimonial-box > .box2 > .box2-line2 > h3 > span,
+main > .testimonial-section > .testimonial-box > .box3 > .box3-line2 > h3 > span{
+	font-size: 11px;
+	color: #006363;
+}
+
+main > .testimonial-section > .testimonial-bottom-line{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main > .testimonial-section > .testimonial-bottom-line > .line1{
+	width: 40px;
+	height: 3px;
+	background-color: #006363;
+	margin: 1em 0.5em;
+}
+main > .testimonial-section > .testimonial-bottom-line > .line2{
+	width: 40px;
+	height: 3px;
+	background-color: yellow;
+	margin: 1em 0.5em;
+}
+main > .testimonial-section > .testimonial-bottom-line > .line3{
+	width: 40px;
+	height: 3px;
+	background-color: #006363;
+	margin: 1em 0.5em;
+}
+
+/*testimonial section styling stops here*/
+/*news section styling starts here*/
+
+main > .news{
+	align-items: center;
+	justify-content: center;
+	background-color: #D3D3D3;
+	margin: auto 4em;
+	padding: 4em 2em;
+	height: 870px;
+}
+
+main > .news > .news-text{
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+main > .news > .news-text > h6 > a{
+	text-decoration: none;
+	color: #006363;
+}
+
+main > .news > .news-text > h2{
+	font-size: 35px;
+}
+
+main > .news > .news-box{
+	margin: 2em 2.1em;
+	display: flex;
+}
+
+main > .news > .news-box > .box1,
+main > .news > .news-box > .box2,
+main > .news > .news-box > .box3{
+	margin: auto 2em;
+	background-color: white;
+	align-items: center;
+	width:300px;
+	height: 650px;
+}
+
+main > .news > .news-box > .box1 > img,
+main > .news > .news-box > .box2 > img,
+main > .news > .news-box > .box3 > img{
+	width: 300px;
+	height: 300px;
+}
+
+main > .news > .news-box > .box1 > .box1-text,
+main > .news > .news-box > .box2 > .box2-text,
+main > .news > .news-box > .box3 > .box3-text{
+	padding: 2em 1.5em;
+}
+
+main > .news > .news-box > .box1 > .box1-text > h6,
+main > .news > .news-box > .box2 > .box2-text > h6,
+main > .news > .news-box > .box3 > .box3-text > h6{
+	color: #006363;
+	margin-bottom: 1em;
+}
+
+main > .news > .news-box > .box1 > .box1-text > h6 > span,
+main > .news > .news-box > .box2 > .box2-text > h6 > span,
+main > .news > .news-box > .box3 > .box3-text > h6 > span{
+	margin-left: 3em;
+}
+
+main > .news > .news-box > .box1 > .box1-text > p,
+main > .news > .news-box > .box2 > .box2-text > p,
+main > .news > .news-box > .box3 > .box3-text > p{
+  margin: 1em auto;
+}
+
+main > .news > .news-box > .box1 > .box1-text > a,
+main > .news > .news-box > .box2 > .box2-text > a,
+main > .news > .news-box > .box3 > .box3-text > a{
+  color: #006363;
+  margin-top: -2em;
+}
+
+/*News section styling ends here*/
+/*main section styling ends here*/
+/*footer section styling starts here*/
+
+footer{
+	color: white;
+	background-color: black;
+	padding: 3em 4em;
+}
+
+footer > .footer-section{
+	display: flex;
+	margin: 2em 4em;
+}
+
+footer > .footer-section > .footer-row1 > .footer-logo{
+  font-size: 35px;
+  margin-bottom: 10px;
+  padding-right: 3.5em;
+}
+
+footer > .footer-section > .footer-row1 > .footer-logo-text{
+	color: grey;
+}
+
+footer > .footer-section > .footer-row2{
+	margin-left: 10em;
+}
+
+footer > .footer-section > .footer-row2 > .row2{
+	display: flex;
+	margin: 2em auto;
+}
+
+footer > .footer-section > .footer-row2 > .row2 > .row2-line1{
+	margin-right: 2em; 
+}
+
+footer > .footer-section > .footer-row2 > .row2 > .row2-line1 > h5,
+footer > .footer-section > .footer-row2 > .row2 > .row2-line2 > h5,
+footer > .footer-section > .footer-row2 > .row2 > .row2-line3 > h5{
+	margin-bottom: 10px;
+	color: grey;
+}
+
+footer > .footer-section > .footer-row2 > .row2 > .row2-line1 > h4 > a{
+  text-decoration: none;
+  color: white;
+}
+
+footer > .footer-section > .footer-row2 > .row2 > .row2-line2{
+	margin-right: 2em;
+}
+
+footer > .footer-section > .footer-row2 > h4 > a{
+	text-decoration: none;
+	color: white;
+}
+
+footer > hr{
+	color: black;
+	height: 5px;
+	box-shadow: 5px solid black;
+}
+
+footer > .footer-bottom{
+	text-align: center;
+	margin-top: 2.5em;
+}
+
+footer > .footer-bottom > span{
+  color: brown;
+}
+
+/*footer section styling ends here*/
